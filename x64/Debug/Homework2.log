@@ -1,0 +1,59 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lab 1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  AttriblessRendering.cpp
+  Callbacks.cpp
+  DebugCallback.cpp
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\DebugCallback.cpp(104,5): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\DebugCallback.cpp(117,5): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\DebugCallback.cpp(116,5): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  InitShader.cpp
+  LoadMesh.cpp
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\LoadMesh.cpp(178,34): warning C4018: '<': signed/unsigned mismatch
+  LoadTexture.cpp
+  Main.cpp
+  Scene.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'Scene.cpp')
+      C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\Scene.cpp(155,52): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\Scene.cpp(155,22): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\Scene.cpp(161,61): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\Scene.cpp(314,18): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  Uniforms.cpp
+  VideoRecorder.cpp
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(53,41): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(382,8): warning C4996: 'AVCodecContext::channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(383,8): warning C4996: 'AVCodecContext::channel_layout': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(384,19): warning C4996: 'AVCodec::channel_layouts': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(385,11): warning C4996: 'AVCodecContext::channel_layout': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(386,30): warning C4996: 'AVCodec::channel_layouts': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(387,25): warning C4996: 'AVCodec::channel_layouts': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(388,17): warning C4996: 'AVCodecContext::channel_layout': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(391,8): warning C4996: 'AVCodecContext::channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(382,21): warning C4996: 'av_get_channel_layout_nb_channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(391,21): warning C4996: 'av_get_channel_layout_nb_channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(447,9): warning C4996: 'AVFrame::channel_layout': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(479,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(481,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(486,51): warning C4996: 'AVCodecContext::channel_layout': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(488,59): warning C4996: 'AVCodecContext::channel_layout': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(503,54): warning C4996: 'AVCodecContext::channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(506,55): warning C4996: 'AVCodecContext::channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(525,7): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(529,31): warning C4996: 'AVCodecContext::channels': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(557,38): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(551,4): warning C4996: 'av_init_packet': was declared deprecated
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(698,7): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(721,41): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(746,4): warning C4996: 'av_init_packet': was declared deprecated
+  Generating Code...
+C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\Homework2\VideoRecorder.cpp(856,1): warning C4700: uninitialized local variable 'audio_codec' used
+  Homework2.vcxproj -> C:\Users\danvi\OneDrive - purdue.edu\Desktop\purdue\521\labs\CGT 521 Spring 2024\x64\Debug\Homework2.exe
